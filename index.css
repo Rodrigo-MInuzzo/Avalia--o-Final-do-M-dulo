@@ -1,0 +1,117 @@
+
+#titulo{
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  
+  
+  
+  body{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./img/IMGs_Projeto/FUNDO_3.jpg);
+  }
+  
+  
+  
+  #user-card {
+    color: aliceblue;
+    margin-top: 40px;
+    background-color: black;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  
+  
+  #user-card:hover {
+    background-color: green; 
+  }
+  
+  
+  footer{
+    margin-top: 10%;
+    color: #e0e0e0;
+    background-color: black;
+     align-items: center;
+     text-align: center;
+     padding: 2px;
+  }
+  
+  #button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #buttonAnterior:hover {
+    background-color: green; 
+  }
+  
+  #buttonProximo:hover {
+    background-color: green; 
+  }
+  
+  
+  #buttonAnterior {
+    color: #e0e0e0;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  #buttonProximo {
+    color: #e0e0e0;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  
+  
+      /* Cor de fundo do modal */
+      .modal-content {
+        background-color: #191a1d;
+        color: #ffffff;
+    }
+  
+    /* Cor do cabeçalho do modal */
+    .modal-header {
+        background-color: green;
+    }
+  
+    /* Cor do título do modal */
+    .modal-title {
+        color: #ffffff;
+    }
+  
+    /* Cor do botão Fechar do modal */
+    .modal-footer .btn-secondary {
+        background-color: green;
+        color: #ffffff;
+    }
+  
+    /* Estilo da imagem do personagem */
+    #characterImage {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+  
+    /* Estilo das informações do personagem */
+    #characterStatus, #characterSpecies, #characterLocation {
+        font-weight: bold;
+    }
+  
+  
+  
+  
+  
